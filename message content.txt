@@ -1,0 +1,26 @@
++CMGL: 1,"REC UNREAD","+70634",,"11/01/09,10:26:26+04"
+This is text message 1
+
+spliting on colon..
+message index is on 1, if colon split
+status on 1 now from , split
+sender on 2
+timestamp 4 
+
+
+Now lets get the message content..
++CMGR: "REC READ","3404","","2024/04/22 20:09:54+32"
+<#> Kodi yt i WhatsApp: 152-203
+
+Mos e ndaj kodin
+
+4sgLq1p5sV6
+
+if data split > 3
+on last every then save as message content from 2:-1
+
+
+
+'AT+CMGF=1\r\r\nOK\r\nAT+CMGL="REC UNREAD"\r\r\nOK\r\n'
+'AT+CMGL="REC UNREAD"\r\r\nOK\r\n'
+
